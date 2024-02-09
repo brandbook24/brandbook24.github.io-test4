@@ -2,7 +2,7 @@ html {
   height: 100%;
   width: 100%;
 }
-<style>
+<style type="text/css">
    .btn {
 display: inline-block; 
     background: #ffff00; 
