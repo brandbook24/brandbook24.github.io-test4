@@ -133,6 +133,43 @@ html {
    color:#0c0f64;
  }
 
+@keyframes rotate-colors {
+
+100% {
+   filter: hue-rotate(360deg);
+}}
+
+
+.hue-animate1 img {
+  animation: rotate-colors 2s linear infinite;
+}
+
+.hue-animate2 img {
+  animation: rotate-colors 4s linear infinite;
+}
+ 
+.hue-animate3 img {
+  animation: rotate-colors 6s linear infinite;
+}
+
+
+.combo img {
+  filter: sepia(2);
+  transition-duration: 0.9s;
+}
+
+.combo img:hover {
+  filter: none;
+}
+
+.body {
+  margin:0;
+}
+
+.page-main{
+  display: flex;
+  justify-content: space-between;
+}
 
 
  
