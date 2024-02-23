@@ -196,6 +196,66 @@ filter:saturate(5);
 
 }
 
+.page-main1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.combo-1 img{
+filter:opacity(0.5); 
+box-shadow: 5px 5px 15px #13116e;
+
+}
+
+.combo-2 img{
+  filter:saturate(5);
+
+}
+
+.combo-3 img{
+filter: hue-rotate(270deg) brightness(1.5);
+
+}
+
+
+
+
+.page-main2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-1 {
+  filter: contrast(2);
+}
+
+.img-2 {
+filter: invert(3);
+}
+
+.img-3 {
+ filter: sepia(7);
+}
+
+
+.page-main3 {
+  display: flex;
+  justify-content: space-between;
+}
+.img-4 {
+filter:hue-rotate(270deg);
+
+}
+
+.img-5 {
+filter:grayscale(5);
+}
+
+.img-6 {
+filter: saturate(2);
+}
 
 
 
