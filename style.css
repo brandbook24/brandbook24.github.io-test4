@@ -257,7 +257,16 @@ filter:grayscale(5);
 filter: saturate(2);
 }
 
-
+button {
+    display: inline-block; 
+    background: #e15323; 
+  
+    padding: 1.5rem 1.5rem; 
+    text-decoration: none; 
+    border-radius: 20px;
+     border-color:   #ddc5bb;
+   box-shadow: 15px 15px 20px #401807;
+ }
 
  
    
