@@ -172,6 +172,33 @@ html {
 }
 
 
+.page-main1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.combo-1 img{
+background-image: url("img/spb-6.jpg");
+filter:opacity(0.5); 
+box-shadow: 5px 5px 15px #13116e;
+
+}
+
+.combo-2 img{
+  background-image: url("img/spb-1.jpg");
+filter:saturate(5);
+
+}
+
+.combo-3 img{
+  background-image: url("img/spb-3.jpg");
+ filter: hue-rotate(270deg) brightness(1.5);
+
+}
+
+
+
+
  
    
      
