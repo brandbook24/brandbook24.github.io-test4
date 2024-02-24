@@ -299,6 +299,56 @@ margin-top: 50px;
    color:#b15c0b;
  }
 
+.card {
+display: grid;
+grid-template-columns: 500px 200px 170px;
+grid-template-areas: "avatar name name"
+                      "avatar email phone"
+                     "skills skills logo-avatar";
+width: 910px;
+padding: 20px;
+gap:20px;
+}
+
+.avatar {
+grid-area: avatar;
+}
+.name {
+grid-area: name;
+align-self: end;
+  font-size: 50px;
+   font-family:"Segoe Script";
+   color:#b15c0b;
+}
+.email {
+grid-area: email;
+   font-family:"Segoe Script";
+   color:#614fa1;
+}
+.phone {
+grid-area: phone;
+font-family:"Segoe Script";
+   color:#614fa1;
+  font-size: 16px;
+}
+
+.skills {
+grid-area: skills;
+  font-size: 20px;
+ font-family: "Segoe Print";
+   color:#0c8088;
+}
+
+.logo-avatar{
+grid-area: logo-avatar;
+align-self: end;
+justify-self: end;
+margin-left: auto;
+}
+
+
+
+
 
    
      
