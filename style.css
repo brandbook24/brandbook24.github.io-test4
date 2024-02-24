@@ -274,11 +274,6 @@ animation-duration:4s;
 animation-delay: 2s;
 animation-direction: alternate-reverse;
 animation-iteration-count: infinite;
-}
-  .flower1 {
-animation-name: rotate;
- animation-duration:6s;
-animation-iteration-count:  infinite;
 transition-timing-function: ease-in-out;
 }
 
