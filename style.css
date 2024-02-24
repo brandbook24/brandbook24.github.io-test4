@@ -262,7 +262,6 @@ button {
     background: #e15323; 
   
     padding: 1.5rem 1.5rem; 
-    text-decoration: none; 
     border-radius: 20px;
      border-color:   #ddc5bb;
    box-shadow: 15px 15px 20px #401807;
@@ -288,7 +287,17 @@ transition-timing-function: ease-in-out;
   }
 }
 
+.page-main4 {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 50px;
+}
 
+  .title{
+   font-family:"Segoe Script";
+   color:#b15c0b;
+ }
 
 
    
