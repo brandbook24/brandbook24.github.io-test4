@@ -268,7 +268,36 @@ button {
    box-shadow: 15px 15px 20px #401807;
  }
 
+ .flower {
+animation-name: rotate;
+animation-duration:4s;
+animation-delay: 2s;
+animation-direction: alternate-reverse;
+animation-iteration-count: infinite;
+}
+  .flower1 {
+animation-name: rotate;
+ animation-duration:6s;
+animation-iteration-count:  infinite;
+transition-timing-function: ease-in-out;
+}
+
+
+
+@keyframes rotate {
  
+ 50% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(360deg);
+
+  }
+}
+
+
+
+
    
      
      
