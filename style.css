@@ -347,6 +347,31 @@ margin-left: auto;
 }
 
 
+.box{
+width: 1200px; 
+height: 800px;
+margin: 30px auto;
+box-shadow: 3px 3px 10px #361307 ;
+}
+
+.block {
+ height: 800px;
+background-repeat:no-repeat;  
+background-position: 50% 50%;   
+}
+
+.block1 {
+background-image: url("https://optim.tildacdn.com/tild3665-3832-4365-b338-393465383663/-/format/webp/_2__kandinsky-downlo.png") ;
+}
+
+.block2 {
+background-image: url("https://optim.tildacdn.com/tild6138-3035-4863-b964-626639306430/-/format/webp/25_.png") ;
+}
+
+
+.block3 {
+background-image: url("https://optim.tildacdn.com/tild3234-3835-4638-a661-313232663563/-/format/webp/kandinsky-download-1.png") ;
+}
 
 
 
