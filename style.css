@@ -374,6 +374,96 @@ background-image: url("https://optim.tildacdn.com/tild3234-3835-4638-a661-313232
 }
 
 
+
+
+
+
+.page-header {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 20px;
+
+  
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin-right: 60px;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.site-navigation {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-width: 980px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.site-navigation-item {
+  margin-right: 30px;
+  font-size: 30px;
+   font-family:"Segoe Script";
+   color:#b15c0b;
+}
+
+.site-navigation-item:last-child {
+  margin-right: 0;
+}
+
+.signin {
+ 
+  margin-left: auto;
+  color: #2227b9;
+   font-family:"Segoe Script";
+}
+
+.site-navigation-item a {
+  font-size: 30px;
+  line-height: 18px;
+  color: #0e7161;
+  text-decoration: none;
+}
+
+.site-navigation-item .active-item {
+  color: #0b098b;
+  
+  
+}
+
+.site-navigation-item a:hover {
+  color: #f79727;
+}
+
+.site-navigation-item a:active {
+  color:  #c3e614;
+}
+
+.signin:hover {
+  opacity: 0.8;
+   color: #f79727;
+}
+
+.signin:active {
+  opacity: 0.5;
+   color: #1f83ad;
+}
+
+
+
+
+
+
 .main-content {
   width: 1200px;
   padding: 0 50px;
