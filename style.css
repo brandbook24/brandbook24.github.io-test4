@@ -491,6 +491,126 @@ font-family: "Segoe Print";
 
 
 
+.main-content {
+  width: 1140px;
+  padding: 0 70px;
+  margin: 0 auto;
+}
+
+.contacts {
+  padding-top: 100px;
+  padding-bottom: 70px;
+
+  display: flex;
+  justify-content: space-between;
+ 
+  
+}
+
+.contacts-content {
+  width: 400px;
+  padding-top: 20px;
+   font-family: "Segoe Script";
+  color: #2ac69f;
+}
+
+.contacts-map {
+  width: 900px;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contacts h2 {
+  font-size: 30px;
+  line-height: 40px;
+
+  margin: 0;
+  margin-bottom: 50px;
+ font-family: "Segoe Script";
+   color:#0c0a8a;
+ 
+
+  
+}
+
+.contact-item {
+  margin-bottom: 20px;
+}
+
+.contact-item h3 {
+  font-size: 20px;
+  line-height: 20px;
+font-family:"Segoe Script";
+   color:#14ada3;
+
+  margin: 0;
+  margin-bottom: 10px;
+  
+}
+
+.contact-item address {
+  font-family:"Segoe Script";
+   color:#0c0a8a;
+}
+
+.contact-item a {
+
+  text-decoration: none;
+  font-family:"Segoe Script";
+   color:#b15c0b;
+}
+
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  margin-top: 30px;
+}
+
+.social-item {
+  margin-right: 25px;
+  
+}
+
+.social-item a {
+  display: flex;
+  justify-content: center;
+ align-items: center;
+  width: 90px;
+  height: 90px;
+
+  border-radius: 50%;
+  background-color: rgb(127, 210, 225);
+}
+
+.social-item a:hover {
+  opacity: 0.5;
+}
+
+.social-item a:active {
+  opacity: 0.5;
+}
+
+.contact-item a:hover {
+  color: rgba(45, 40, 40, 0.5);
+}
+
+.contact-item a:active {
+  color: rgba(45, 30, 30, 0.5);
+}
+
+
+
+
+
 
 
 
