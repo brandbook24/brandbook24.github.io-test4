@@ -893,6 +893,218 @@ font-family:"Segoe Script";
 
 
 
+.main-content-affairs{
+  width: 1100px;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.hero {
+  margin-bottom: 100px;
+}
+
+.hero h1 {
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-left: 30px;
+   font-family: "Segoe Print";
+   color: #19bcd2;
+
+}
+
+.quote {
+  width: 980px;
+  margin: 0 auto 110px;
+  padding: 20px 0;
+}
+
+.quote blockquote {
+  margin: 0;
+  color: #2d24ae;
+   font-size: 22px;
+}
+
+.quote p {
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+   font-family: "PostScriptum";
+   color: #df9920;
+
+}
+
+.quote footer {
+  font-weight: 1200;
+  text-align: center;
+  
+}
+
+.fact-article {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fact-article-1 {
+  margin-bottom:100px;
+ 
+}
+
+.fact-article-2 {
+  margin-bottom: 100px;
+  flex-direction: row-reverse;
+}
+
+.fact-article-content {
+  width: 900px;
+  
+}
+
+.fact-article-img {
+  width: 500px;
+}
+
+.fact-article h2 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 40px;
+ 
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 20px;
+  text-underline-position: under;
+ font-family: "Segoe Print";
+   color: #5825b6;
+  margin-top: 0;
+  margin-bottom: 20px;
+   padding-left: 20px;
+}
+
+.fact-article h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+   color: #29e0c2;
+   font-family: "PostScriptum";
+  padding-left: 20px;
+}
+
+.fact-article p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #121a87;
+   font-family: "Segoe Print";
+  padding-left: 20px;
+}
+
+.affairs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.affairs-column {
+  width: 700px;
+ color: #eab010;
+   font-family: "Segoe Print";
+   font-size: 30px;
+  line-height: 40px;
+}
+
+.affairs-img {
+  width: 500px;
+}
+
+.affairs h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+.affairs-item {
+  font-size: 13px;
+  text-transform: uppercase;
+  
+  line-height: 20px;
+  color: #18208b;
+   font-family: "PostScriptum";
+}
+
+.cta-button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #d38312;
+  background-color: #cac6e6;
+  font-family: "PostScriptum";
+}
+
+.gallery {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+
+  margin: 0;
+  margin-bottom: 20px;
+   color: #6a71d7;
+   font-family: "Segoe Print";
+}
+
+.gallery-wrapper {
+  display: flex;
+}
+
+.active-img {
+  width: 1000px;
+  margin-right: 20px;
+}
+
+.gallery-preview {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  width: 800px;
+}
+
+.preview-item {
+  margin-bottom: 20px;
+}
+
+.preview-item:last-child {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .main-footer {
   color: #ffffff;
   background-color: #84350b;
